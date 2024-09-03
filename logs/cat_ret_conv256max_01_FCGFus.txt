@@ -1,0 +1,273 @@
+2024-08-19 08:41:24 trainer: RetrievalTrainer
+2024-08-19 08:41:24 mode: train
+2024-08-19 08:41:24 category ID: 03001627
+2024-08-19 08:41:24 dataset: CategoryDataset, batch_size: 32
+2024-08-19 08:41:24 embedding dim: [1024, 512, 256]
+2024-08-19 08:41:24 voxel size: 0.03
+2024-08-19 08:41:24 optimizer: SGD learning rate: 0.1, exp_gamma: 0.95
+2024-08-19 08:41:24 embedding: conv1_max_embedding
+2024-08-19 08:41:24 pos ratio: 0.1, neg ratio: 0.5
+2024-08-19 08:41:24 train_pose: False, train_ret: True
+2024-08-19 08:41:24 resume: None
+2024-08-19 08:41:24 pretrain: ./ckpts/cat_pose_id_01_FCGF16
+2024-08-19 08:41:24 CatId: 03001627
+2024-08-19 08:41:24 pos ratio: 0.1 neg ratio: 0.5
+2024-08-19 08:41:41 Finish Loading
+2024-08-19 08:41:41 Using optimizer SGD
+2024-08-19 08:41:42 loading pretrained model from ./ckpts/cat_pose_id_01_FCGF16
+2024-08-19 08:41:42 Start training
+2024-08-19 08:41:42 Saving checkpoint
+2024-08-19 08:41:42 save to cat_ret_conv256max_01_FCGFus
+2024-08-19 08:42:01 EPOCH:1 Batch index: 10, Batch loss: 0.3093
+2024-08-19 08:42:01 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.3093
+2024-08-19 08:42:14 EPOCH:1 Batch index: 20, Batch loss: 0.2275
+2024-08-19 08:42:14 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2275
+2024-08-19 08:42:30 EPOCH:1 Batch index: 30, Batch loss: 0.1880
+2024-08-19 08:42:30 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1880
+2024-08-19 08:42:43 EPOCH:1 Batch index: 40, Batch loss: 0.2491
+2024-08-19 08:42:43 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2491
+2024-08-19 08:42:59 EPOCH:1 Batch index: 50, Batch loss: 0.2859
+2024-08-19 08:42:59 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2859
+2024-08-19 08:43:12 EPOCH:1 Batch index: 60, Batch loss: 0.2928
+2024-08-19 08:43:12 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2928
+2024-08-19 08:43:27 EPOCH:1 Batch index: 70, Batch loss: 0.1692
+2024-08-19 08:43:27 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1692
+2024-08-19 08:43:40 EPOCH:1 Batch index: 80, Batch loss: 0.1786
+2024-08-19 08:43:40 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1786
+2024-08-19 08:43:55 EPOCH:1 Batch index: 90, Batch loss: 0.1168
+2024-08-19 08:43:55 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1168
+2024-08-19 08:44:09 EPOCH:1 Batch index: 100, Batch loss: 0.3847
+2024-08-19 08:44:09 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.3847
+2024-08-19 08:44:24 EPOCH:1 Batch index: 110, Batch loss: 0.1701
+2024-08-19 08:44:24 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1701
+2024-08-19 08:44:37 EPOCH:1 Batch index: 120, Batch loss: 0.2337
+2024-08-19 08:44:37 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2337
+2024-08-19 08:44:53 EPOCH:1 Batch index: 130, Batch loss: 0.2525
+2024-08-19 08:44:53 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2525
+2024-08-19 08:45:04 EPOCH:1 Batch index: 140, Batch loss: 0.2635
+2024-08-19 08:45:04 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2635
+2024-08-19 08:45:05 EPOCH:1 SUMMARY loss: 0.2833 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2833
+2024-08-19 08:45:05 Saving checkpoint
+2024-08-19 08:45:05 save to cat_ret_conv256max_01_FCGFus
+2024-08-19 08:45:26 EPOCH:2 Batch index: 10, Batch loss: 0.2337
+2024-08-19 08:45:26 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2337
+2024-08-19 08:45:39 EPOCH:2 Batch index: 20, Batch loss: 0.2405
+2024-08-19 08:45:39 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2405
+2024-08-19 08:45:55 EPOCH:2 Batch index: 30, Batch loss: 0.2460
+2024-08-19 08:45:55 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2460
+2024-08-19 08:46:08 EPOCH:2 Batch index: 40, Batch loss: 0.1199
+2024-08-19 08:46:08 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1199
+2024-08-19 08:46:24 EPOCH:2 Batch index: 50, Batch loss: 0.2347
+2024-08-19 08:46:24 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2347
+2024-08-19 08:46:37 EPOCH:2 Batch index: 60, Batch loss: 0.2450
+2024-08-19 08:46:37 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2450
+2024-08-19 08:46:53 EPOCH:2 Batch index: 70, Batch loss: 0.1499
+2024-08-19 08:46:53 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1499
+2024-08-19 08:47:06 EPOCH:2 Batch index: 80, Batch loss: 0.2107
+2024-08-19 08:47:06 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2107
+2024-08-19 08:47:22 EPOCH:2 Batch index: 90, Batch loss: 0.1330
+2024-08-19 08:47:22 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1330
+2024-08-19 08:47:35 EPOCH:2 Batch index: 100, Batch loss: 0.1325
+2024-08-19 08:47:35 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1325
+2024-08-19 08:47:52 EPOCH:2 Batch index: 110, Batch loss: 0.1199
+2024-08-19 08:47:52 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1199
+2024-08-19 08:48:04 EPOCH:2 Batch index: 120, Batch loss: 0.3153
+2024-08-19 08:48:04 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.3153
+2024-08-19 08:48:20 EPOCH:2 Batch index: 130, Batch loss: 0.2516
+2024-08-19 08:48:20 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2516
+2024-08-19 08:48:30 EPOCH:2 Batch index: 140, Batch loss: 0.2279
+2024-08-19 08:48:30 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2279
+2024-08-19 08:48:32 EPOCH:2 SUMMARY loss: 0.2074 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2074
+2024-08-19 08:48:32 Saving checkpoint
+2024-08-19 08:48:32 save to cat_ret_conv256max_01_FCGFus
+2024-08-19 08:48:52 EPOCH:3 Batch index: 10, Batch loss: 0.2410
+2024-08-19 08:48:52 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2410
+2024-08-19 08:49:05 EPOCH:3 Batch index: 20, Batch loss: 0.2591
+2024-08-19 08:49:05 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2591
+2024-08-19 08:49:21 EPOCH:3 Batch index: 30, Batch loss: 0.1115
+2024-08-19 08:49:21 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1115
+2024-08-19 08:49:35 EPOCH:3 Batch index: 40, Batch loss: 0.1704
+2024-08-19 08:49:35 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1704
+2024-08-19 08:49:50 EPOCH:3 Batch index: 50, Batch loss: 0.2771
+2024-08-19 08:49:50 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2771
+2024-08-19 08:50:03 EPOCH:3 Batch index: 60, Batch loss: 0.3467
+2024-08-19 08:50:03 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.3467
+2024-08-19 08:50:19 EPOCH:3 Batch index: 70, Batch loss: 0.2027
+2024-08-19 08:50:19 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2027
+2024-08-19 08:50:32 EPOCH:3 Batch index: 80, Batch loss: 0.1853
+2024-08-19 08:50:32 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1853
+2024-08-19 08:50:47 EPOCH:3 Batch index: 90, Batch loss: 0.1353
+2024-08-19 08:50:47 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1353
+2024-08-19 08:51:00 EPOCH:3 Batch index: 100, Batch loss: 0.0971
+2024-08-19 08:51:00 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.0971
+2024-08-19 08:51:16 EPOCH:3 Batch index: 110, Batch loss: 0.2363
+2024-08-19 08:51:16 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2363
+2024-08-19 08:51:29 EPOCH:3 Batch index: 120, Batch loss: 0.2568
+2024-08-19 08:51:29 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2568
+2024-08-19 08:51:45 EPOCH:3 Batch index: 130, Batch loss: 0.1601
+2024-08-19 08:51:45 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1601
+2024-08-19 08:51:56 EPOCH:3 Batch index: 140, Batch loss: 0.2562
+2024-08-19 08:51:56 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2562
+2024-08-19 08:51:57 EPOCH:3 SUMMARY loss: 0.1953 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1953
+2024-08-19 08:51:57 Saving checkpoint
+2024-08-19 08:51:57 save to cat_ret_conv256max_01_FCGFus
+2024-08-19 08:52:17 EPOCH:4 Batch index: 10, Batch loss: 0.2536
+2024-08-19 08:52:17 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2536
+2024-08-19 08:52:31 EPOCH:4 Batch index: 20, Batch loss: 0.0813
+2024-08-19 08:52:31 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.0813
+2024-08-19 08:52:46 EPOCH:4 Batch index: 30, Batch loss: 0.2698
+2024-08-19 08:52:46 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2698
+2024-08-19 08:52:59 EPOCH:4 Batch index: 40, Batch loss: 0.1955
+2024-08-19 08:52:59 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1955
+2024-08-19 08:53:15 EPOCH:4 Batch index: 50, Batch loss: 0.1777
+2024-08-19 08:53:15 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1777
+2024-08-19 08:53:28 EPOCH:4 Batch index: 60, Batch loss: 0.1374
+2024-08-19 08:53:28 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1374
+2024-08-19 08:53:44 EPOCH:4 Batch index: 70, Batch loss: 0.1646
+2024-08-19 08:53:44 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1646
+2024-08-19 08:53:57 EPOCH:4 Batch index: 80, Batch loss: 0.2074
+2024-08-19 08:53:57 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2074
+2024-08-19 08:54:13 EPOCH:4 Batch index: 90, Batch loss: 0.2269
+2024-08-19 08:54:13 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2269
+2024-08-19 08:54:26 EPOCH:4 Batch index: 100, Batch loss: 0.1531
+2024-08-19 08:54:26 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1531
+2024-08-19 08:54:42 EPOCH:4 Batch index: 110, Batch loss: 0.1006
+2024-08-19 08:54:42 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1006
+2024-08-19 08:54:55 EPOCH:4 Batch index: 120, Batch loss: 0.1441
+2024-08-19 08:54:55 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1441
+2024-08-19 08:55:10 EPOCH:4 Batch index: 130, Batch loss: 0.1733
+2024-08-19 08:55:10 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1733
+2024-08-19 08:55:21 EPOCH:4 Batch index: 140, Batch loss: 0.0711
+2024-08-19 08:55:21 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.0711
+2024-08-19 08:55:22 EPOCH:4 SUMMARY loss: 0.1846 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1846
+2024-08-19 08:55:22 Start evaluation
+2024-08-19 08:55:49 -----TEST-----
+2024-08-19 08:55:50 mAP: 53.318508007381006 percision: 39.58428767750801 top1_error: 0.12859136453275946
+2024-08-19 08:55:50 Saving checkpoint
+2024-08-19 08:55:50 save to cat_ret_conv256max_01_FCGFus
+2024-08-19 08:56:10 EPOCH:5 Batch index: 10, Batch loss: 0.1541
+2024-08-19 08:56:10 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1541
+2024-08-19 08:56:24 EPOCH:5 Batch index: 20, Batch loss: 0.1290
+2024-08-19 08:56:24 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1290
+2024-08-19 08:56:39 EPOCH:5 Batch index: 30, Batch loss: 0.1967
+2024-08-19 08:56:39 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1967
+2024-08-19 08:56:51 EPOCH:5 Batch index: 40, Batch loss: 0.2123
+2024-08-19 08:56:51 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2123
+2024-08-19 08:57:07 EPOCH:5 Batch index: 50, Batch loss: 0.2430
+2024-08-19 08:57:07 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2430
+2024-08-19 08:57:21 EPOCH:5 Batch index: 60, Batch loss: 0.1579
+2024-08-19 08:57:21 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1579
+2024-08-19 08:57:34 EPOCH:5 Batch index: 70, Batch loss: 0.1379
+2024-08-19 08:57:34 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1379
+2024-08-19 08:57:49 EPOCH:5 Batch index: 80, Batch loss: 0.2136
+2024-08-19 08:57:49 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2136
+2024-08-19 08:58:04 EPOCH:5 Batch index: 90, Batch loss: 0.2073
+2024-08-19 08:58:04 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2073
+2024-08-19 08:58:20 EPOCH:5 Batch index: 100, Batch loss: 0.2206
+2024-08-19 08:58:20 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2206
+2024-08-19 08:58:33 EPOCH:5 Batch index: 110, Batch loss: 0.2899
+2024-08-19 08:58:33 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2899
+2024-08-19 08:58:49 EPOCH:5 Batch index: 120, Batch loss: 0.1626
+2024-08-19 08:58:49 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1626
+2024-08-19 08:59:02 EPOCH:5 Batch index: 130, Batch loss: 0.1242
+2024-08-19 08:59:02 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1242
+2024-08-19 08:59:15 EPOCH:5 Batch index: 140, Batch loss: 0.2534
+2024-08-19 08:59:15 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2534
+2024-08-19 08:59:15 EPOCH:5 SUMMARY loss: 0.1807 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1807
+2024-08-19 08:59:15 Saving checkpoint
+2024-08-19 08:59:16 save to cat_ret_conv256max_01_FCGFus
+2024-08-19 08:59:35 EPOCH:6 Batch index: 10, Batch loss: 0.2553
+2024-08-19 08:59:35 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2553
+2024-08-19 08:59:49 EPOCH:6 Batch index: 20, Batch loss: 0.1695
+2024-08-19 08:59:49 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1695
+2024-08-19 09:00:05 EPOCH:6 Batch index: 30, Batch loss: 0.1457
+2024-08-19 09:00:05 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1457
+2024-08-19 09:00:18 EPOCH:6 Batch index: 40, Batch loss: 0.1927
+2024-08-19 09:00:18 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1927
+2024-08-19 09:00:35 EPOCH:6 Batch index: 50, Batch loss: 0.1883
+2024-08-19 09:00:35 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1883
+2024-08-19 09:00:47 EPOCH:6 Batch index: 60, Batch loss: 0.1599
+2024-08-19 09:00:47 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1599
+2024-08-19 09:01:02 EPOCH:6 Batch index: 70, Batch loss: 0.2854
+2024-08-19 09:01:02 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2854
+2024-08-19 09:01:16 EPOCH:6 Batch index: 80, Batch loss: 0.1586
+2024-08-19 09:01:16 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1586
+2024-08-19 09:01:33 EPOCH:6 Batch index: 90, Batch loss: 0.0872
+2024-08-19 09:01:33 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.0872
+2024-08-19 09:01:45 EPOCH:6 Batch index: 100, Batch loss: 0.2612
+2024-08-19 09:01:45 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2612
+2024-08-19 09:02:00 EPOCH:6 Batch index: 110, Batch loss: 0.2869
+2024-08-19 09:02:00 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2869
+2024-08-19 09:02:13 EPOCH:6 Batch index: 120, Batch loss: 0.2555
+2024-08-19 09:02:13 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2555
+2024-08-19 09:02:29 EPOCH:6 Batch index: 130, Batch loss: 0.1051
+2024-08-19 09:02:29 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1051
+2024-08-19 09:02:39 EPOCH:6 Batch index: 140, Batch loss: 0.1378
+2024-08-19 09:02:39 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1378
+2024-08-19 09:02:41 EPOCH:6 SUMMARY loss: 0.1765 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1765
+2024-08-19 09:02:41 Saving checkpoint
+2024-08-19 09:02:41 save to cat_ret_conv256max_01_FCGFus
+2024-08-19 09:03:01 EPOCH:7 Batch index: 10, Batch loss: 0.1619
+2024-08-19 09:03:01 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1619
+2024-08-19 09:03:14 EPOCH:7 Batch index: 20, Batch loss: 0.2380
+2024-08-19 09:03:14 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2380
+2024-08-19 09:03:29 EPOCH:7 Batch index: 30, Batch loss: 0.1110
+2024-08-19 09:03:29 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1110
+2024-08-19 09:03:44 EPOCH:7 Batch index: 40, Batch loss: 0.1460
+2024-08-19 09:03:44 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1460
+2024-08-19 09:03:57 EPOCH:7 Batch index: 50, Batch loss: 0.0624
+2024-08-19 09:03:57 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.0624
+2024-08-19 09:04:12 EPOCH:7 Batch index: 60, Batch loss: 0.1580
+2024-08-19 09:04:12 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1580
+2024-08-19 09:04:25 EPOCH:7 Batch index: 70, Batch loss: 0.2128
+2024-08-19 09:04:25 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2128
+2024-08-19 09:04:41 EPOCH:7 Batch index: 80, Batch loss: 0.2802
+2024-08-19 09:04:41 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2802
+2024-08-19 09:04:54 EPOCH:7 Batch index: 90, Batch loss: 0.1395
+2024-08-19 09:04:54 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1395
+2024-08-19 09:05:08 EPOCH:7 Batch index: 100, Batch loss: 0.1784
+2024-08-19 09:05:08 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1784
+2024-08-19 09:05:23 EPOCH:7 Batch index: 110, Batch loss: 0.1814
+2024-08-19 09:05:23 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1814
+2024-08-19 09:05:38 EPOCH:7 Batch index: 120, Batch loss: 0.1186
+2024-08-19 09:05:38 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1186
+2024-08-19 09:05:51 EPOCH:7 Batch index: 130, Batch loss: 0.1145
+2024-08-19 09:05:51 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1145
+2024-08-19 09:06:05 EPOCH:7 Batch index: 140, Batch loss: 0.1910
+2024-08-19 09:06:05 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1910
+2024-08-19 09:06:06 EPOCH:7 SUMMARY loss: 0.1663 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1663
+2024-08-19 09:06:06 Saving checkpoint
+2024-08-19 09:06:06 save to cat_ret_conv256max_01_FCGFus
+2024-08-19 09:06:24 EPOCH:8 Batch index: 10, Batch loss: 0.2979
+2024-08-19 09:06:24 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2979
+2024-08-19 09:06:38 EPOCH:8 Batch index: 20, Batch loss: 0.2348
+2024-08-19 09:06:38 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2348
+2024-08-19 09:06:54 EPOCH:8 Batch index: 30, Batch loss: 0.1268
+2024-08-19 09:06:54 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1268
+2024-08-19 09:07:08 EPOCH:8 Batch index: 40, Batch loss: 0.1578
+2024-08-19 09:07:08 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1578
+2024-08-19 09:07:24 EPOCH:8 Batch index: 50, Batch loss: 0.1786
+2024-08-19 09:07:24 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1786
+2024-08-19 09:07:37 EPOCH:8 Batch index: 60, Batch loss: 0.0907
+2024-08-19 09:07:37 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.0907
+2024-08-19 09:07:53 EPOCH:8 Batch index: 70, Batch loss: 0.0868
+2024-08-19 09:07:53 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.0868
+2024-08-19 09:08:06 EPOCH:8 Batch index: 80, Batch loss: 0.2510
+2024-08-19 09:08:06 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2510
+2024-08-19 09:08:22 EPOCH:8 Batch index: 90, Batch loss: 0.0973
+2024-08-19 09:08:22 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.0973
+2024-08-19 09:08:35 EPOCH:8 Batch index: 100, Batch loss: 0.1633
+2024-08-19 09:08:35 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1633
+2024-08-19 09:08:51 EPOCH:8 Batch index: 110, Batch loss: 0.3261
+2024-08-19 09:08:51 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.3261
+2024-08-19 09:09:04 EPOCH:8 Batch index: 120, Batch loss: 0.1458
+2024-08-19 09:09:04 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1458
+2024-08-19 09:09:19 EPOCH:8 Batch index: 130, Batch loss: 0.1728
+2024-08-19 09:09:19 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1728
+2024-08-19 09:09:30 EPOCH:8 Batch index: 140, Batch loss: 0.2099
+2024-08-19 09:09:30 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2099
+2024-08-19 09:09:31 EPOCH:8 SUMMARY loss: 0.1707 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.1707
+2024-08-19 09:09:31 Saving checkpoint
+2024-08-19 09:09:31 save to cat_ret_conv256max_01_FCGFus
+2024-08-19 09:09:50 EPOCH:9 Batch index: 10, Batch loss: 0.2348
+2024-08-19 09:09:50 loss pos: 0.0000 loss neg: 0.0000 loss feat: 0.2348

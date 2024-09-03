@@ -1,0 +1,518 @@
+2024-08-19 03:34:09 trainer: RetrievalTrainer
+2024-08-19 03:34:09 mode: train
+2024-08-19 03:34:09 category ID: 03001627
+2024-08-19 03:34:09 dataset: CategoryDataset, batch_size: 32
+2024-08-19 03:34:09 embedding dim: None
+2024-08-19 03:34:09 voxel size: 0.03
+2024-08-19 03:34:09 optimizer: SGD learning rate: 0.1, exp_gamma: 0.95
+2024-08-19 03:34:09 embedding: identity
+2024-08-19 03:34:09 pos ratio: 0.1, neg ratio: 0.5
+2024-08-19 03:34:09 train_pose: True, train_ret: False
+2024-08-19 03:34:09 resume: None
+2024-08-19 03:34:09 pretrain: ./ckpts/FCGF16.pth
+2024-08-19 03:34:09 CatId: 03001627
+2024-08-19 03:34:09 pos ratio: 0.1 neg ratio: 0.5
+2024-08-19 03:36:24 Finish Loading
+2024-08-19 03:36:25 Using optimizer SGD
+2024-08-19 03:36:26 loading pretrained model from ./ckpts/FCGF16.pth
+2024-08-19 03:36:26 Start training
+2024-08-19 03:36:26 Saving checkpoint
+2024-08-19 03:36:26 save to cat_pose_id_01_scratch
+2024-08-19 03:36:45 EPOCH:1 Batch index: 10, Batch loss: 0.9430
+2024-08-19 03:36:45 loss pos: 0.5263 loss neg: 0.4167 loss feat: 0.0000
+2024-08-19 03:36:59 EPOCH:1 Batch index: 20, Batch loss: 0.9437
+2024-08-19 03:36:59 loss pos: 0.5683 loss neg: 0.3754 loss feat: 0.0000
+2024-08-19 03:37:16 EPOCH:1 Batch index: 30, Batch loss: 0.7089
+2024-08-19 03:37:16 loss pos: 0.3361 loss neg: 0.3728 loss feat: 0.0000
+2024-08-19 03:37:30 EPOCH:1 Batch index: 40, Batch loss: 0.7312
+2024-08-19 03:37:30 loss pos: 0.3593 loss neg: 0.3719 loss feat: 0.0000
+2024-08-19 03:37:45 EPOCH:1 Batch index: 50, Batch loss: 0.6881
+2024-08-19 03:37:45 loss pos: 0.3474 loss neg: 0.3407 loss feat: 0.0000
+2024-08-19 03:37:59 EPOCH:1 Batch index: 60, Batch loss: 0.6606
+2024-08-19 03:37:59 loss pos: 0.3094 loss neg: 0.3512 loss feat: 0.0000
+2024-08-19 03:38:15 EPOCH:1 Batch index: 70, Batch loss: 0.6292
+2024-08-19 03:38:15 loss pos: 0.2793 loss neg: 0.3499 loss feat: 0.0000
+2024-08-19 03:38:28 EPOCH:1 Batch index: 80, Batch loss: 0.6302
+2024-08-19 03:38:28 loss pos: 0.2868 loss neg: 0.3434 loss feat: 0.0000
+2024-08-19 03:38:42 EPOCH:1 Batch index: 90, Batch loss: 0.7012
+2024-08-19 03:38:42 loss pos: 0.3997 loss neg: 0.3015 loss feat: 0.0000
+2024-08-19 03:38:58 EPOCH:1 Batch index: 100, Batch loss: 0.7025
+2024-08-19 03:38:58 loss pos: 0.3673 loss neg: 0.3351 loss feat: 0.0000
+2024-08-19 03:39:12 EPOCH:1 Batch index: 110, Batch loss: 0.6051
+2024-08-19 03:39:12 loss pos: 0.3129 loss neg: 0.2922 loss feat: 0.0000
+2024-08-19 03:39:26 EPOCH:1 Batch index: 120, Batch loss: 0.6231
+2024-08-19 03:39:26 loss pos: 0.3074 loss neg: 0.3157 loss feat: 0.0000
+2024-08-19 03:39:43 EPOCH:1 Batch index: 130, Batch loss: 0.6270
+2024-08-19 03:39:43 loss pos: 0.3420 loss neg: 0.2849 loss feat: 0.0000
+2024-08-19 03:39:54 EPOCH:1 Batch index: 140, Batch loss: 0.6662
+2024-08-19 03:39:54 loss pos: 0.3477 loss neg: 0.3185 loss feat: 0.0000
+2024-08-19 03:39:55 EPOCH:1 SUMMARY loss: 0.7200 loss pos: 0.3573 loss neg: 0.3627 loss feat: 0.0000
+2024-08-19 03:39:55 Saving checkpoint
+2024-08-19 03:39:55 save to cat_pose_id_01_scratch
+2024-08-19 03:40:15 EPOCH:2 Batch index: 10, Batch loss: 0.5480
+2024-08-19 03:40:15 loss pos: 0.2380 loss neg: 0.3100 loss feat: 0.0000
+2024-08-19 03:40:29 EPOCH:2 Batch index: 20, Batch loss: 0.5883
+2024-08-19 03:40:29 loss pos: 0.2906 loss neg: 0.2977 loss feat: 0.0000
+2024-08-19 03:40:45 EPOCH:2 Batch index: 30, Batch loss: 0.5029
+2024-08-19 03:40:45 loss pos: 0.2245 loss neg: 0.2784 loss feat: 0.0000
+2024-08-19 03:40:57 EPOCH:2 Batch index: 40, Batch loss: 0.5505
+2024-08-19 03:40:57 loss pos: 0.2477 loss neg: 0.3028 loss feat: 0.0000
+2024-08-19 03:41:12 EPOCH:2 Batch index: 50, Batch loss: 0.5661
+2024-08-19 03:41:12 loss pos: 0.2754 loss neg: 0.2908 loss feat: 0.0000
+2024-08-19 03:41:27 EPOCH:2 Batch index: 60, Batch loss: 0.5753
+2024-08-19 03:41:27 loss pos: 0.2824 loss neg: 0.2929 loss feat: 0.0000
+2024-08-19 03:41:42 EPOCH:2 Batch index: 70, Batch loss: 0.5617
+2024-08-19 03:41:42 loss pos: 0.2992 loss neg: 0.2625 loss feat: 0.0000
+2024-08-19 03:41:57 EPOCH:2 Batch index: 80, Batch loss: 0.5660
+2024-08-19 03:41:57 loss pos: 0.2699 loss neg: 0.2962 loss feat: 0.0000
+2024-08-19 03:42:11 EPOCH:2 Batch index: 90, Batch loss: 0.5591
+2024-08-19 03:42:11 loss pos: 0.2572 loss neg: 0.3020 loss feat: 0.0000
+2024-08-19 03:42:27 EPOCH:2 Batch index: 100, Batch loss: 0.5627
+2024-08-19 03:42:27 loss pos: 0.2861 loss neg: 0.2765 loss feat: 0.0000
+2024-08-19 03:42:41 EPOCH:2 Batch index: 110, Batch loss: 0.6082
+2024-08-19 03:42:41 loss pos: 0.3014 loss neg: 0.3068 loss feat: 0.0000
+2024-08-19 03:42:57 EPOCH:2 Batch index: 120, Batch loss: 0.4659
+2024-08-19 03:42:57 loss pos: 0.1983 loss neg: 0.2676 loss feat: 0.0000
+2024-08-19 03:43:10 EPOCH:2 Batch index: 130, Batch loss: 0.5364
+2024-08-19 03:43:10 loss pos: 0.2522 loss neg: 0.2842 loss feat: 0.0000
+2024-08-19 03:43:22 EPOCH:2 Batch index: 140, Batch loss: 0.5609
+2024-08-19 03:43:22 loss pos: 0.2888 loss neg: 0.2720 loss feat: 0.0000
+2024-08-19 03:43:23 EPOCH:2 SUMMARY loss: 0.5549 loss pos: 0.2608 loss neg: 0.2941 loss feat: 0.0000
+2024-08-19 03:43:23 Saving checkpoint
+2024-08-19 03:43:24 save to cat_pose_id_01_scratch
+2024-08-19 03:43:43 EPOCH:3 Batch index: 10, Batch loss: 0.5437
+2024-08-19 03:43:43 loss pos: 0.2502 loss neg: 0.2936 loss feat: 0.0000
+2024-08-19 03:43:56 EPOCH:3 Batch index: 20, Batch loss: 0.4355
+2024-08-19 03:43:56 loss pos: 0.1643 loss neg: 0.2712 loss feat: 0.0000
+2024-08-19 03:44:10 EPOCH:3 Batch index: 30, Batch loss: 0.5889
+2024-08-19 03:44:10 loss pos: 0.3127 loss neg: 0.2762 loss feat: 0.0000
+2024-08-19 03:44:26 EPOCH:3 Batch index: 40, Batch loss: 0.5030
+2024-08-19 03:44:26 loss pos: 0.2240 loss neg: 0.2790 loss feat: 0.0000
+2024-08-19 03:44:40 EPOCH:3 Batch index: 50, Batch loss: 0.5126
+2024-08-19 03:44:40 loss pos: 0.2388 loss neg: 0.2738 loss feat: 0.0000
+2024-08-19 03:44:57 EPOCH:3 Batch index: 60, Batch loss: 0.5793
+2024-08-19 03:44:57 loss pos: 0.2951 loss neg: 0.2842 loss feat: 0.0000
+2024-08-19 03:45:10 EPOCH:3 Batch index: 70, Batch loss: 0.5094
+2024-08-19 03:45:10 loss pos: 0.2422 loss neg: 0.2672 loss feat: 0.0000
+2024-08-19 03:45:26 EPOCH:3 Batch index: 80, Batch loss: 0.5492
+2024-08-19 03:45:26 loss pos: 0.2651 loss neg: 0.2841 loss feat: 0.0000
+2024-08-19 03:45:39 EPOCH:3 Batch index: 90, Batch loss: 0.5418
+2024-08-19 03:45:39 loss pos: 0.2832 loss neg: 0.2586 loss feat: 0.0000
+2024-08-19 03:45:56 EPOCH:3 Batch index: 100, Batch loss: 0.4971
+2024-08-19 03:45:56 loss pos: 0.2413 loss neg: 0.2558 loss feat: 0.0000
+2024-08-19 03:46:08 EPOCH:3 Batch index: 110, Batch loss: 0.5718
+2024-08-19 03:46:08 loss pos: 0.3094 loss neg: 0.2624 loss feat: 0.0000
+2024-08-19 03:46:23 EPOCH:3 Batch index: 120, Batch loss: 0.5325
+2024-08-19 03:46:23 loss pos: 0.2699 loss neg: 0.2626 loss feat: 0.0000
+2024-08-19 03:46:38 EPOCH:3 Batch index: 130, Batch loss: 0.5572
+2024-08-19 03:46:38 loss pos: 0.3064 loss neg: 0.2508 loss feat: 0.0000
+2024-08-19 03:46:50 EPOCH:3 Batch index: 140, Batch loss: 0.5211
+2024-08-19 03:46:50 loss pos: 0.2717 loss neg: 0.2493 loss feat: 0.0000
+2024-08-19 03:46:51 EPOCH:3 SUMMARY loss: 0.5087 loss pos: 0.2364 loss neg: 0.2723 loss feat: 0.0000
+2024-08-19 03:46:51 Saving checkpoint
+2024-08-19 03:46:51 save to cat_pose_id_01_scratch
+2024-08-19 03:47:10 EPOCH:4 Batch index: 10, Batch loss: 0.5238
+2024-08-19 03:47:10 loss pos: 0.2472 loss neg: 0.2766 loss feat: 0.0000
+2024-08-19 03:47:24 EPOCH:4 Batch index: 20, Batch loss: 0.4839
+2024-08-19 03:47:24 loss pos: 0.2156 loss neg: 0.2683 loss feat: 0.0000
+2024-08-19 03:47:39 EPOCH:4 Batch index: 30, Batch loss: 0.5009
+2024-08-19 03:47:39 loss pos: 0.2371 loss neg: 0.2639 loss feat: 0.0000
+2024-08-19 03:47:54 EPOCH:4 Batch index: 40, Batch loss: 0.4454
+2024-08-19 03:47:54 loss pos: 0.2009 loss neg: 0.2445 loss feat: 0.0000
+2024-08-19 03:48:08 EPOCH:4 Batch index: 50, Batch loss: 0.5222
+2024-08-19 03:48:08 loss pos: 0.2546 loss neg: 0.2676 loss feat: 0.0000
+2024-08-19 03:48:22 EPOCH:4 Batch index: 60, Batch loss: 0.4505
+2024-08-19 03:48:22 loss pos: 0.2059 loss neg: 0.2445 loss feat: 0.0000
+2024-08-19 03:48:36 EPOCH:4 Batch index: 70, Batch loss: 0.4496
+2024-08-19 03:48:36 loss pos: 0.2096 loss neg: 0.2400 loss feat: 0.0000
+2024-08-19 03:48:51 EPOCH:4 Batch index: 80, Batch loss: 0.5083
+2024-08-19 03:48:51 loss pos: 0.2475 loss neg: 0.2607 loss feat: 0.0000
+2024-08-19 03:49:07 EPOCH:4 Batch index: 90, Batch loss: 0.5597
+2024-08-19 03:49:07 loss pos: 0.3172 loss neg: 0.2424 loss feat: 0.0000
+2024-08-19 03:49:21 EPOCH:4 Batch index: 100, Batch loss: 0.4885
+2024-08-19 03:49:21 loss pos: 0.2374 loss neg: 0.2511 loss feat: 0.0000
+2024-08-19 03:49:35 EPOCH:4 Batch index: 110, Batch loss: 0.4323
+2024-08-19 03:49:35 loss pos: 0.1687 loss neg: 0.2637 loss feat: 0.0000
+2024-08-19 03:49:49 EPOCH:4 Batch index: 120, Batch loss: 0.4437
+2024-08-19 03:49:49 loss pos: 0.1938 loss neg: 0.2500 loss feat: 0.0000
+2024-08-19 03:50:03 EPOCH:4 Batch index: 130, Batch loss: 0.4684
+2024-08-19 03:50:03 loss pos: 0.2222 loss neg: 0.2462 loss feat: 0.0000
+2024-08-19 03:50:16 EPOCH:4 Batch index: 140, Batch loss: 0.4697
+2024-08-19 03:50:16 loss pos: 0.1973 loss neg: 0.2724 loss feat: 0.0000
+2024-08-19 03:50:17 EPOCH:4 SUMMARY loss: 0.4749 loss pos: 0.2185 loss neg: 0.2564 loss feat: 0.0000
+2024-08-19 03:50:17 Start evaluation
+2024-08-19 03:50:44 -----TEST-----
+2024-08-19 03:51:11 mAP: 41.582613751979196 percision: 29.921552908841047 top1_error: 0.13537318923359587
+2024-08-19 03:54:21 Eval align Index: 10/592 T error: 0.1422 R error: 0.3111 
+2024-08-19 03:55:21 Eval align Index: 20/592 T error: 0.1186 R error: 0.2460 
+2024-08-19 04:00:37 Eval align Index: 30/592 T error: 0.1387 R error: 0.3294 
+2024-08-19 04:02:19 Eval align Index: 40/592 T error: 0.1349 R error: 0.3027 
+2024-08-19 04:03:11 Eval align Index: 50/592 T error: 0.1233 R error: 0.2720 
+2024-08-19 04:06:28 Eval align Index: 60/592 T error: 0.1171 R error: 0.2520 
+2024-08-19 04:07:53 Eval align Index: 70/592 T error: 0.1210 R error: 0.2865 
+2024-08-19 04:09:05 Eval align Index: 80/592 T error: 0.1220 R error: 0.2775 
+2024-08-19 04:09:36 Eval align Index: 90/592 T error: 0.1202 R error: 0.2660 
+2024-08-19 04:12:02 Eval align Index: 100/592 T error: 0.1322 R error: 0.3149 
+2024-08-19 04:13:32 Eval align Index: 110/592 T error: 0.1268 R error: 0.2988 
+2024-08-19 04:16:11 Eval align Index: 120/592 T error: 0.1244 R error: 0.2869 
+2024-08-19 04:18:04 Eval align Index: 130/592 T error: 0.1300 R error: 0.3041 
+2024-08-19 04:19:32 Eval align Index: 140/592 T error: 0.1284 R error: 0.2958 
+2024-08-19 04:20:02 Eval align Index: 150/592 T error: 0.1250 R error: 0.2882 
+2024-08-19 04:21:57 Eval align Index: 160/592 T error: 0.1260 R error: 0.2999 
+2024-08-19 04:22:29 Eval align Index: 170/592 T error: 0.1246 R error: 0.2906 
+2024-08-19 04:23:21 Eval align Index: 180/592 T error: 0.1237 R error: 0.2840 
+2024-08-19 04:25:39 Eval align Index: 190/592 T error: 0.1242 R error: 0.2918 
+2024-08-19 04:26:00 Eval align Index: 200/592 T error: 0.1218 R error: 0.2823 
+2024-08-19 04:31:27 Eval align Index: 210/592 T error: 0.1239 R error: 0.2903 
+2024-08-19 04:32:27 Eval align Index: 220/592 T error: 0.1224 R error: 0.2850 
+2024-08-19 04:33:43 Eval align Index: 230/592 T error: 0.1216 R error: 0.2818 
+2024-08-19 04:34:34 Eval align Index: 240/592 T error: 0.1197 R error: 0.2773 
+2024-08-19 04:34:59 Eval align Index: 250/592 T error: 0.1184 R error: 0.2808 
+2024-08-19 04:35:45 Eval align Index: 260/592 T error: 0.1197 R error: 0.2818 
+2024-08-19 04:37:03 Eval align Index: 270/592 T error: 0.1194 R error: 0.2782 
+2024-08-19 04:38:13 Eval align Index: 280/592 T error: 0.1185 R error: 0.2745 
+2024-08-19 04:39:57 Eval align Index: 290/592 T error: 0.1171 R error: 0.2698 
+2024-08-19 04:40:33 Eval align Index: 300/592 T error: 0.1165 R error: 0.2655 
+2024-08-19 04:42:35 Eval align Index: 310/592 T error: 0.1162 R error: 0.2618 
+2024-08-19 04:43:19 Eval align Index: 320/592 T error: 0.1154 R error: 0.2596 
+2024-08-19 04:45:04 Eval align Index: 330/592 T error: 0.1150 R error: 0.2575 
+2024-08-19 04:45:35 Eval align Index: 340/592 T error: 0.1149 R error: 0.2545 
+2024-08-19 04:46:08 Eval align Index: 350/592 T error: 0.1143 R error: 0.2509 
+2024-08-19 04:46:51 Eval align Index: 360/592 T error: 0.1151 R error: 0.2537 
+2024-08-19 04:47:23 Eval align Index: 370/592 T error: 0.1144 R error: 0.2511 
+2024-08-19 04:48:28 Eval align Index: 380/592 T error: 0.1144 R error: 0.2489 
+2024-08-19 04:50:52 Eval align Index: 390/592 T error: 0.1141 R error: 0.2466 
+2024-08-19 04:52:21 Eval align Index: 400/592 T error: 0.1138 R error: 0.2445 
+2024-08-19 04:53:56 Eval align Index: 410/592 T error: 0.1137 R error: 0.2418 
+2024-08-19 04:54:37 Eval align Index: 420/592 T error: 0.1133 R error: 0.2403 
+2024-08-19 04:55:36 Eval align Index: 430/592 T error: 0.1132 R error: 0.2388 
+2024-08-19 04:56:42 Eval align Index: 440/592 T error: 0.1133 R error: 0.2371 
+2024-08-19 04:58:00 Eval align Index: 450/592 T error: 0.1130 R error: 0.2352 
+2024-08-19 05:00:32 Eval align Index: 460/592 T error: 0.1123 R error: 0.2336 
+2024-08-19 05:02:08 Eval align Index: 470/592 T error: 0.1122 R error: 0.2319 
+2024-08-19 05:03:23 Eval align Index: 480/592 T error: 0.1122 R error: 0.2307 
+2024-08-19 05:04:40 Eval align Index: 490/592 T error: 0.1116 R error: 0.2291 
+2024-08-19 05:05:11 Eval align Index: 500/592 T error: 0.1112 R error: 0.2269 
+2024-08-19 05:07:05 Eval align Index: 510/592 T error: 0.1110 R error: 0.2256 
+2024-08-19 05:08:40 Eval align Index: 520/592 T error: 0.1108 R error: 0.2239 
+2024-08-19 05:09:29 Eval align Index: 530/592 T error: 0.1104 R error: 0.2228 
+2024-08-19 05:15:22 Eval align Index: 540/592 T error: 0.1111 R error: 0.2270 
+2024-08-19 05:17:55 Eval align Index: 550/592 T error: 0.1125 R error: 0.2314 
+2024-08-19 05:20:56 Eval align Index: 560/592 T error: 0.1136 R error: 0.2352 
+2024-08-19 05:22:17 Eval align Index: 570/592 T error: 0.1136 R error: 0.2334 
+2024-08-19 05:23:19 Eval align Index: 580/592 T error: 0.1136 R error: 0.2321 
+2024-08-19 05:24:13 Eval align Index: 590/592 T error: 0.1138 R error: 0.2313 
+2024-08-19 05:24:40 T error: 0.11381760239601135, R error: 0.2315123975276947
+2024-08-19 05:24:40 Saving checkpoint
+2024-08-19 05:24:40 save to cat_pose_id_01_scratch
+2024-08-19 05:25:00 EPOCH:5 Batch index: 10, Batch loss: 0.4603
+2024-08-19 05:25:00 loss pos: 0.2054 loss neg: 0.2549 loss feat: 0.0000
+2024-08-19 05:25:14 EPOCH:5 Batch index: 20, Batch loss: 0.4247
+2024-08-19 05:25:14 loss pos: 0.1750 loss neg: 0.2498 loss feat: 0.0000
+2024-08-19 05:25:31 EPOCH:5 Batch index: 30, Batch loss: 0.4557
+2024-08-19 05:25:31 loss pos: 0.2161 loss neg: 0.2396 loss feat: 0.0000
+2024-08-19 05:25:44 EPOCH:5 Batch index: 40, Batch loss: 0.4319
+2024-08-19 05:25:44 loss pos: 0.1948 loss neg: 0.2370 loss feat: 0.0000
+2024-08-19 05:25:59 EPOCH:5 Batch index: 50, Batch loss: 0.4222
+2024-08-19 05:25:59 loss pos: 0.1898 loss neg: 0.2324 loss feat: 0.0000
+2024-08-19 05:26:15 EPOCH:5 Batch index: 60, Batch loss: 0.4286
+2024-08-19 05:26:15 loss pos: 0.1909 loss neg: 0.2377 loss feat: 0.0000
+2024-08-19 05:26:29 EPOCH:5 Batch index: 70, Batch loss: 0.4370
+2024-08-19 05:26:29 loss pos: 0.1993 loss neg: 0.2377 loss feat: 0.0000
+2024-08-19 05:26:44 EPOCH:5 Batch index: 80, Batch loss: 0.4511
+2024-08-19 05:26:44 loss pos: 0.2033 loss neg: 0.2478 loss feat: 0.0000
+2024-08-19 05:27:00 EPOCH:5 Batch index: 90, Batch loss: 0.4332
+2024-08-19 05:27:00 loss pos: 0.1935 loss neg: 0.2397 loss feat: 0.0000
+2024-08-19 05:27:14 EPOCH:5 Batch index: 100, Batch loss: 0.4912
+2024-08-19 05:27:14 loss pos: 0.2584 loss neg: 0.2328 loss feat: 0.0000
+2024-08-19 05:27:29 EPOCH:5 Batch index: 110, Batch loss: 0.4552
+2024-08-19 05:27:29 loss pos: 0.2233 loss neg: 0.2320 loss feat: 0.0000
+2024-08-19 05:27:44 EPOCH:5 Batch index: 120, Batch loss: 0.3960
+2024-08-19 05:27:44 loss pos: 0.1391 loss neg: 0.2570 loss feat: 0.0000
+2024-08-19 05:27:59 EPOCH:5 Batch index: 130, Batch loss: 0.4569
+2024-08-19 05:27:59 loss pos: 0.2112 loss neg: 0.2457 loss feat: 0.0000
+2024-08-19 05:28:11 EPOCH:5 Batch index: 140, Batch loss: 0.5034
+2024-08-19 05:28:11 loss pos: 0.2634 loss neg: 0.2399 loss feat: 0.0000
+2024-08-19 05:28:12 EPOCH:5 SUMMARY loss: 0.4534 loss pos: 0.2084 loss neg: 0.2449 loss feat: 0.0000
+2024-08-19 05:28:12 Saving checkpoint
+2024-08-19 05:28:12 save to cat_pose_id_01_scratch
+2024-08-19 05:28:31 EPOCH:6 Batch index: 10, Batch loss: 0.4223
+2024-08-19 05:28:31 loss pos: 0.1904 loss neg: 0.2319 loss feat: 0.0000
+2024-08-19 05:28:45 EPOCH:6 Batch index: 20, Batch loss: 0.4968
+2024-08-19 05:28:45 loss pos: 0.2707 loss neg: 0.2261 loss feat: 0.0000
+2024-08-19 05:29:03 EPOCH:6 Batch index: 30, Batch loss: 0.5298
+2024-08-19 05:29:03 loss pos: 0.2992 loss neg: 0.2306 loss feat: 0.0000
+2024-08-19 05:29:16 EPOCH:6 Batch index: 40, Batch loss: 0.4528
+2024-08-19 05:29:16 loss pos: 0.2237 loss neg: 0.2291 loss feat: 0.0000
+2024-08-19 05:29:32 EPOCH:6 Batch index: 50, Batch loss: 0.4456
+2024-08-19 05:29:32 loss pos: 0.2026 loss neg: 0.2430 loss feat: 0.0000
+2024-08-19 05:29:47 EPOCH:6 Batch index: 60, Batch loss: 0.4055
+2024-08-19 05:29:47 loss pos: 0.1780 loss neg: 0.2275 loss feat: 0.0000
+2024-08-19 05:30:03 EPOCH:6 Batch index: 70, Batch loss: 0.4555
+2024-08-19 05:30:03 loss pos: 0.2315 loss neg: 0.2241 loss feat: 0.0000
+2024-08-19 05:30:16 EPOCH:6 Batch index: 80, Batch loss: 0.4213
+2024-08-19 05:30:16 loss pos: 0.1830 loss neg: 0.2383 loss feat: 0.0000
+2024-08-19 05:30:31 EPOCH:6 Batch index: 90, Batch loss: 0.4704
+2024-08-19 05:30:31 loss pos: 0.2308 loss neg: 0.2396 loss feat: 0.0000
+2024-08-19 05:30:46 EPOCH:6 Batch index: 100, Batch loss: 0.4221
+2024-08-19 05:30:46 loss pos: 0.1929 loss neg: 0.2293 loss feat: 0.0000
+2024-08-19 05:31:02 EPOCH:6 Batch index: 110, Batch loss: 0.4681
+2024-08-19 05:31:02 loss pos: 0.2309 loss neg: 0.2371 loss feat: 0.0000
+2024-08-19 05:31:16 EPOCH:6 Batch index: 120, Batch loss: 0.4089
+2024-08-19 05:31:16 loss pos: 0.1586 loss neg: 0.2503 loss feat: 0.0000
+2024-08-19 05:31:32 EPOCH:6 Batch index: 130, Batch loss: 0.3849
+2024-08-19 05:31:32 loss pos: 0.1591 loss neg: 0.2259 loss feat: 0.0000
+2024-08-19 05:31:43 EPOCH:6 Batch index: 140, Batch loss: 0.4346
+2024-08-19 05:31:43 loss pos: 0.2022 loss neg: 0.2325 loss feat: 0.0000
+2024-08-19 05:31:44 EPOCH:6 SUMMARY loss: 0.4388 loss pos: 0.2021 loss neg: 0.2367 loss feat: 0.0000
+2024-08-19 05:31:44 Saving checkpoint
+2024-08-19 05:31:44 save to cat_pose_id_01_scratch
+2024-08-19 05:32:04 EPOCH:7 Batch index: 10, Batch loss: 0.4797
+2024-08-19 05:32:04 loss pos: 0.2378 loss neg: 0.2419 loss feat: 0.0000
+2024-08-19 05:32:19 EPOCH:7 Batch index: 20, Batch loss: 0.5301
+2024-08-19 05:32:19 loss pos: 0.2888 loss neg: 0.2413 loss feat: 0.0000
+2024-08-19 05:32:35 EPOCH:7 Batch index: 30, Batch loss: 0.4258
+2024-08-19 05:32:35 loss pos: 0.1805 loss neg: 0.2453 loss feat: 0.0000
+2024-08-19 05:32:49 EPOCH:7 Batch index: 40, Batch loss: 0.3833
+2024-08-19 05:32:49 loss pos: 0.1589 loss neg: 0.2244 loss feat: 0.0000
+2024-08-19 05:33:04 EPOCH:7 Batch index: 50, Batch loss: 0.4252
+2024-08-19 05:33:04 loss pos: 0.1936 loss neg: 0.2315 loss feat: 0.0000
+2024-08-19 05:33:17 EPOCH:7 Batch index: 60, Batch loss: 0.4163
+2024-08-19 05:33:17 loss pos: 0.1789 loss neg: 0.2375 loss feat: 0.0000
+2024-08-19 05:33:33 EPOCH:7 Batch index: 70, Batch loss: 0.4167
+2024-08-19 05:33:33 loss pos: 0.1778 loss neg: 0.2389 loss feat: 0.0000
+2024-08-19 05:33:46 EPOCH:7 Batch index: 80, Batch loss: 0.3678
+2024-08-19 05:33:46 loss pos: 0.1364 loss neg: 0.2314 loss feat: 0.0000
+2024-08-19 05:34:03 EPOCH:7 Batch index: 90, Batch loss: 0.3966
+2024-08-19 05:34:03 loss pos: 0.1663 loss neg: 0.2303 loss feat: 0.0000
+2024-08-19 05:34:17 EPOCH:7 Batch index: 100, Batch loss: 0.3752
+2024-08-19 05:34:17 loss pos: 0.1541 loss neg: 0.2210 loss feat: 0.0000
+2024-08-19 05:34:32 EPOCH:7 Batch index: 110, Batch loss: 0.3975
+2024-08-19 05:34:32 loss pos: 0.1826 loss neg: 0.2150 loss feat: 0.0000
+2024-08-19 05:34:45 EPOCH:7 Batch index: 120, Batch loss: 0.4776
+2024-08-19 05:34:45 loss pos: 0.2325 loss neg: 0.2450 loss feat: 0.0000
+2024-08-19 05:35:00 EPOCH:7 Batch index: 130, Batch loss: 0.4429
+2024-08-19 05:35:00 loss pos: 0.2149 loss neg: 0.2280 loss feat: 0.0000
+2024-08-19 05:35:13 EPOCH:7 Batch index: 140, Batch loss: 0.4183
+2024-08-19 05:35:13 loss pos: 0.1975 loss neg: 0.2208 loss feat: 0.0000
+2024-08-19 05:35:14 EPOCH:7 SUMMARY loss: 0.4229 loss pos: 0.1930 loss neg: 0.2299 loss feat: 0.0000
+2024-08-19 05:35:14 Saving checkpoint
+2024-08-19 05:35:14 save to cat_pose_id_01_scratch
+2024-08-19 05:35:33 EPOCH:8 Batch index: 10, Batch loss: 0.4428
+2024-08-19 05:35:33 loss pos: 0.2112 loss neg: 0.2315 loss feat: 0.0000
+2024-08-19 05:35:49 EPOCH:8 Batch index: 20, Batch loss: 0.4101
+2024-08-19 05:35:49 loss pos: 0.1802 loss neg: 0.2299 loss feat: 0.0000
+2024-08-19 05:36:03 EPOCH:8 Batch index: 30, Batch loss: 0.4418
+2024-08-19 05:36:03 loss pos: 0.2091 loss neg: 0.2327 loss feat: 0.0000
+2024-08-19 05:36:18 EPOCH:8 Batch index: 40, Batch loss: 0.4405
+2024-08-19 05:36:18 loss pos: 0.2207 loss neg: 0.2199 loss feat: 0.0000
+2024-08-19 05:36:35 EPOCH:8 Batch index: 50, Batch loss: 0.4383
+2024-08-19 05:36:35 loss pos: 0.2408 loss neg: 0.1975 loss feat: 0.0000
+2024-08-19 05:36:47 EPOCH:8 Batch index: 60, Batch loss: 0.4126
+2024-08-19 05:36:47 loss pos: 0.1833 loss neg: 0.2293 loss feat: 0.0000
+2024-08-19 05:37:03 EPOCH:8 Batch index: 70, Batch loss: 0.4810
+2024-08-19 05:37:03 loss pos: 0.2649 loss neg: 0.2162 loss feat: 0.0000
+2024-08-19 05:37:17 EPOCH:8 Batch index: 80, Batch loss: 0.4189
+2024-08-19 05:37:17 loss pos: 0.1809 loss neg: 0.2381 loss feat: 0.0000
+2024-08-19 05:37:32 EPOCH:8 Batch index: 90, Batch loss: 0.3991
+2024-08-19 05:37:32 loss pos: 0.1823 loss neg: 0.2168 loss feat: 0.0000
+2024-08-19 05:37:47 EPOCH:8 Batch index: 100, Batch loss: 0.4117
+2024-08-19 05:37:47 loss pos: 0.2012 loss neg: 0.2105 loss feat: 0.0000
+2024-08-19 05:38:01 EPOCH:8 Batch index: 110, Batch loss: 0.4828
+2024-08-19 05:38:01 loss pos: 0.2695 loss neg: 0.2134 loss feat: 0.0000
+2024-08-19 05:38:15 EPOCH:8 Batch index: 120, Batch loss: 0.3711
+2024-08-19 05:38:15 loss pos: 0.1510 loss neg: 0.2201 loss feat: 0.0000
+2024-08-19 05:38:29 EPOCH:8 Batch index: 130, Batch loss: 0.4103
+2024-08-19 05:38:29 loss pos: 0.2082 loss neg: 0.2021 loss feat: 0.0000
+2024-08-19 05:38:44 EPOCH:8 Batch index: 140, Batch loss: 0.4227
+2024-08-19 05:38:44 loss pos: 0.2013 loss neg: 0.2214 loss feat: 0.0000
+2024-08-19 05:38:45 EPOCH:8 SUMMARY loss: 0.4085 loss pos: 0.1844 loss neg: 0.2242 loss feat: 0.0000
+2024-08-19 05:38:45 Saving checkpoint
+2024-08-19 05:38:45 save to cat_pose_id_01_scratch
+2024-08-19 05:39:05 EPOCH:9 Batch index: 10, Batch loss: 0.3996
+2024-08-19 05:39:05 loss pos: 0.1978 loss neg: 0.2017 loss feat: 0.0000
+2024-08-19 05:39:20 EPOCH:9 Batch index: 20, Batch loss: 0.4468
+2024-08-19 05:39:20 loss pos: 0.2205 loss neg: 0.2263 loss feat: 0.0000
+2024-08-19 05:39:34 EPOCH:9 Batch index: 30, Batch loss: 0.4439
+2024-08-19 05:39:34 loss pos: 0.2228 loss neg: 0.2211 loss feat: 0.0000
+2024-08-19 05:39:48 EPOCH:9 Batch index: 40, Batch loss: 0.4212
+2024-08-19 05:39:48 loss pos: 0.2216 loss neg: 0.1996 loss feat: 0.0000
+2024-08-19 05:40:02 EPOCH:9 Batch index: 50, Batch loss: 0.3840
+2024-08-19 05:40:02 loss pos: 0.1825 loss neg: 0.2016 loss feat: 0.0000
+2024-08-19 05:40:17 EPOCH:9 Batch index: 60, Batch loss: 0.4499
+2024-08-19 05:40:17 loss pos: 0.2145 loss neg: 0.2355 loss feat: 0.0000
+2024-08-19 05:40:31 EPOCH:9 Batch index: 70, Batch loss: 0.4433
+2024-08-19 05:40:31 loss pos: 0.1596 loss neg: 0.2837 loss feat: 0.0000
+2024-08-19 05:40:46 EPOCH:9 Batch index: 80, Batch loss: 0.4106
+2024-08-19 05:40:46 loss pos: 0.2164 loss neg: 0.1941 loss feat: 0.0000
+2024-08-19 05:41:00 EPOCH:9 Batch index: 90, Batch loss: 0.4251
+2024-08-19 05:41:00 loss pos: 0.1846 loss neg: 0.2404 loss feat: 0.0000
+2024-08-19 05:41:17 EPOCH:9 Batch index: 100, Batch loss: 0.3613
+2024-08-19 05:41:17 loss pos: 0.1496 loss neg: 0.2117 loss feat: 0.0000
+2024-08-19 05:41:31 EPOCH:9 Batch index: 110, Batch loss: 0.4414
+2024-08-19 05:41:31 loss pos: 0.2470 loss neg: 0.1945 loss feat: 0.0000
+2024-08-19 05:41:47 EPOCH:9 Batch index: 120, Batch loss: 0.4243
+2024-08-19 05:41:47 loss pos: 0.2176 loss neg: 0.2067 loss feat: 0.0000
+2024-08-19 05:42:01 EPOCH:9 Batch index: 130, Batch loss: 0.3866
+2024-08-19 05:42:01 loss pos: 0.2054 loss neg: 0.1812 loss feat: 0.0000
+2024-08-19 05:42:14 EPOCH:9 Batch index: 140, Batch loss: 0.4252
+2024-08-19 05:42:14 loss pos: 0.1694 loss neg: 0.2558 loss feat: 0.0000
+2024-08-19 05:42:15 EPOCH:9 SUMMARY loss: 0.4032 loss pos: 0.1805 loss neg: 0.2227 loss feat: 0.0000
+2024-08-19 05:42:15 Start evaluation
+2024-08-19 05:42:42 -----TEST-----
+2024-08-19 05:43:10 mAP: 41.77689141502522 percision: 30.173499770957395 top1_error: 0.13364556067421832
+2024-08-19 05:45:58 Eval align Index: 10/592 T error: 0.1175 R error: 0.1820 
+2024-08-19 05:46:57 Eval align Index: 20/592 T error: 0.1054 R error: 0.1675 
+2024-08-19 05:48:58 Eval align Index: 30/592 T error: 0.1028 R error: 0.1705 
+2024-08-19 05:50:13 Eval align Index: 40/592 T error: 0.0972 R error: 0.1695 
+2024-08-19 05:50:44 Eval align Index: 50/592 T error: 0.0905 R error: 0.1577 
+2024-08-19 05:52:04 Eval align Index: 60/592 T error: 0.0899 R error: 0.1556 
+2024-08-19 05:53:15 Eval align Index: 70/592 T error: 0.0892 R error: 0.1533 
+2024-08-19 05:54:56 Eval align Index: 80/592 T error: 0.0944 R error: 0.1640 
+2024-08-19 05:55:22 Eval align Index: 90/592 T error: 0.0968 R error: 0.1656 
+2024-08-19 05:57:37 Eval align Index: 100/592 T error: 0.1104 R error: 0.2212 
+2024-08-19 05:58:12 Eval align Index: 110/592 T error: 0.1049 R error: 0.2128 
+2024-08-19 05:58:58 Eval align Index: 120/592 T error: 0.1039 R error: 0.2063 
+2024-08-19 05:59:57 Eval align Index: 130/592 T error: 0.1107 R error: 0.2255 
+2024-08-19 06:00:53 Eval align Index: 140/592 T error: 0.1083 R error: 0.2221 
+2024-08-19 06:01:18 Eval align Index: 150/592 T error: 0.1061 R error: 0.2154 
+2024-08-19 06:02:45 Eval align Index: 160/592 T error: 0.1066 R error: 0.2306 
+2024-08-19 06:03:14 Eval align Index: 170/592 T error: 0.1052 R error: 0.2298 
+2024-08-19 06:04:00 Eval align Index: 180/592 T error: 0.1083 R error: 0.2426 
+2024-08-19 06:04:57 Eval align Index: 190/592 T error: 0.1078 R error: 0.2383 
+2024-08-19 06:05:16 Eval align Index: 200/592 T error: 0.1064 R error: 0.2355 
+2024-08-19 06:07:37 Eval align Index: 210/592 T error: 0.1061 R error: 0.2320 
+2024-08-19 06:08:13 Eval align Index: 220/592 T error: 0.1088 R error: 0.2392 
+2024-08-19 06:09:00 Eval align Index: 230/592 T error: 0.1069 R error: 0.2346 
+2024-08-19 06:09:36 Eval align Index: 240/592 T error: 0.1054 R error: 0.2317 
+2024-08-19 06:09:58 Eval align Index: 250/592 T error: 0.1048 R error: 0.2379 
+2024-08-19 06:10:24 Eval align Index: 260/592 T error: 0.1039 R error: 0.2342 
+2024-08-19 06:11:38 Eval align Index: 270/592 T error: 0.1037 R error: 0.2305 
+2024-08-19 06:12:34 Eval align Index: 280/592 T error: 0.1030 R error: 0.2282 
+2024-08-19 06:13:30 Eval align Index: 290/592 T error: 0.1022 R error: 0.2248 
+2024-08-19 06:13:58 Eval align Index: 300/592 T error: 0.1012 R error: 0.2211 
+2024-08-19 06:14:48 Eval align Index: 310/592 T error: 0.1002 R error: 0.2176 
+2024-08-19 06:15:24 Eval align Index: 320/592 T error: 0.1003 R error: 0.2161 
+2024-08-19 06:16:35 Eval align Index: 330/592 T error: 0.0995 R error: 0.2135 
+2024-08-19 06:16:56 Eval align Index: 340/592 T error: 0.0987 R error: 0.2109 
+2024-08-19 06:17:19 Eval align Index: 350/592 T error: 0.0979 R error: 0.2090 
+2024-08-19 06:17:50 Eval align Index: 360/592 T error: 0.0981 R error: 0.2085 
+2024-08-19 06:18:14 Eval align Index: 370/592 T error: 0.0981 R error: 0.2064 
+2024-08-19 06:19:38 Eval align Index: 380/592 T error: 0.1005 R error: 0.2133 
+2024-08-19 06:20:54 Eval align Index: 390/592 T error: 0.1002 R error: 0.2106 
+2024-08-19 06:22:08 Eval align Index: 400/592 T error: 0.0995 R error: 0.2091 
+2024-08-19 06:24:25 Eval align Index: 410/592 T error: 0.0993 R error: 0.2075 
+2024-08-19 06:24:55 Eval align Index: 420/592 T error: 0.0989 R error: 0.2066 
+2024-08-19 06:25:36 Eval align Index: 430/592 T error: 0.0987 R error: 0.2046 
+2024-08-19 06:26:26 Eval align Index: 440/592 T error: 0.0986 R error: 0.2035 
+2024-08-19 06:27:13 Eval align Index: 450/592 T error: 0.0988 R error: 0.2030 
+2024-08-19 06:27:52 Eval align Index: 460/592 T error: 0.0986 R error: 0.2016 
+2024-08-19 06:28:44 Eval align Index: 470/592 T error: 0.0982 R error: 0.2006 
+2024-08-19 06:29:35 Eval align Index: 480/592 T error: 0.0976 R error: 0.1998 
+2024-08-19 06:30:28 Eval align Index: 490/592 T error: 0.0972 R error: 0.1984 
+2024-08-19 06:30:53 Eval align Index: 500/592 T error: 0.0968 R error: 0.1966 
+2024-08-19 06:31:41 Eval align Index: 510/592 T error: 0.0979 R error: 0.2018 
+2024-08-19 06:32:49 Eval align Index: 520/592 T error: 0.0980 R error: 0.1998 
+2024-08-19 06:33:27 Eval align Index: 530/592 T error: 0.0976 R error: 0.1986 
+2024-08-19 06:35:03 Eval align Index: 540/592 T error: 0.0977 R error: 0.1979 
+2024-08-19 06:36:57 Eval align Index: 550/592 T error: 0.1006 R error: 0.2077 
+2024-08-19 06:39:49 Eval align Index: 560/592 T error: 0.1018 R error: 0.2119 
+2024-08-19 06:40:57 Eval align Index: 570/592 T error: 0.1014 R error: 0.2097 
+2024-08-19 06:41:34 Eval align Index: 580/592 T error: 0.1009 R error: 0.2082 
+2024-08-19 06:42:31 Eval align Index: 590/592 T error: 0.1011 R error: 0.2082 
+2024-08-19 06:42:45 T error: 0.10114234685897827, R error: 0.20815888047218323
+2024-08-19 06:42:45 Saving checkpoint
+2024-08-19 06:42:45 save to cat_pose_id_01_scratch
+2024-08-19 06:43:06 EPOCH:10 Batch index: 10, Batch loss: 0.3768
+2024-08-19 06:43:06 loss pos: 0.1395 loss neg: 0.2373 loss feat: 0.0000
+2024-08-19 06:43:21 EPOCH:10 Batch index: 20, Batch loss: 0.3595
+2024-08-19 06:43:21 loss pos: 0.1626 loss neg: 0.1968 loss feat: 0.0000
+2024-08-19 06:43:37 EPOCH:10 Batch index: 30, Batch loss: 0.4368
+2024-08-19 06:43:37 loss pos: 0.1685 loss neg: 0.2683 loss feat: 0.0000
+2024-08-19 06:43:50 EPOCH:10 Batch index: 40, Batch loss: 0.3910
+2024-08-19 06:43:50 loss pos: 0.1912 loss neg: 0.1998 loss feat: 0.0000
+2024-08-19 06:44:07 EPOCH:10 Batch index: 50, Batch loss: 0.3669
+2024-08-19 06:44:07 loss pos: 0.1844 loss neg: 0.1825 loss feat: 0.0000
+2024-08-19 06:44:21 EPOCH:10 Batch index: 60, Batch loss: 0.3479
+2024-08-19 06:44:21 loss pos: 0.1300 loss neg: 0.2178 loss feat: 0.0000
+2024-08-19 06:44:37 EPOCH:10 Batch index: 70, Batch loss: 0.3523
+2024-08-19 06:44:37 loss pos: 0.1469 loss neg: 0.2054 loss feat: 0.0000
+2024-08-19 06:44:51 EPOCH:10 Batch index: 80, Batch loss: 0.3568
+2024-08-19 06:44:51 loss pos: 0.1203 loss neg: 0.2364 loss feat: 0.0000
+2024-08-19 06:45:07 EPOCH:10 Batch index: 90, Batch loss: 0.3779
+2024-08-19 06:45:07 loss pos: 0.1396 loss neg: 0.2384 loss feat: 0.0000
+2024-08-19 06:45:19 EPOCH:10 Batch index: 100, Batch loss: 0.3703
+2024-08-19 06:45:19 loss pos: 0.1800 loss neg: 0.1903 loss feat: 0.0000
+2024-08-19 06:45:34 EPOCH:10 Batch index: 110, Batch loss: 0.4074
+2024-08-19 06:45:34 loss pos: 0.1716 loss neg: 0.2357 loss feat: 0.0000
+2024-08-19 06:45:48 EPOCH:10 Batch index: 120, Batch loss: 0.3433
+2024-08-19 06:45:48 loss pos: 0.1248 loss neg: 0.2185 loss feat: 0.0000
+2024-08-19 06:46:02 EPOCH:10 Batch index: 130, Batch loss: 0.4500
+2024-08-19 06:46:02 loss pos: 0.2430 loss neg: 0.2070 loss feat: 0.0000
+2024-08-19 06:46:15 EPOCH:10 Batch index: 140, Batch loss: 0.4077
+2024-08-19 06:46:15 loss pos: 0.1720 loss neg: 0.2358 loss feat: 0.0000
+2024-08-19 06:46:16 EPOCH:10 SUMMARY loss: 0.3886 loss pos: 0.1742 loss neg: 0.2145 loss feat: 0.0000
+2024-08-19 06:46:16 Saving checkpoint
+2024-08-19 06:46:16 save to cat_pose_id_01_scratch
+2024-08-19 06:46:37 EPOCH:11 Batch index: 10, Batch loss: 0.3891
+2024-08-19 06:46:37 loss pos: 0.2142 loss neg: 0.1749 loss feat: 0.0000
+2024-08-19 06:46:49 EPOCH:11 Batch index: 20, Batch loss: 0.4665
+2024-08-19 06:46:49 loss pos: 0.2516 loss neg: 0.2149 loss feat: 0.0000
+2024-08-19 06:47:05 EPOCH:11 Batch index: 30, Batch loss: 0.3994
+2024-08-19 06:47:05 loss pos: 0.1900 loss neg: 0.2095 loss feat: 0.0000
+2024-08-19 06:47:21 EPOCH:11 Batch index: 40, Batch loss: 0.3621
+2024-08-19 06:47:21 loss pos: 0.1821 loss neg: 0.1800 loss feat: 0.0000
+2024-08-19 06:47:35 EPOCH:11 Batch index: 50, Batch loss: 0.3652
+2024-08-19 06:47:35 loss pos: 0.1413 loss neg: 0.2239 loss feat: 0.0000
+2024-08-19 06:47:52 EPOCH:11 Batch index: 60, Batch loss: 0.3331
+2024-08-19 06:47:52 loss pos: 0.1475 loss neg: 0.1856 loss feat: 0.0000
+2024-08-19 06:48:04 EPOCH:11 Batch index: 70, Batch loss: 0.4221
+2024-08-19 06:48:04 loss pos: 0.2031 loss neg: 0.2190 loss feat: 0.0000
+2024-08-19 06:48:20 EPOCH:11 Batch index: 80, Batch loss: 0.3777
+2024-08-19 06:48:20 loss pos: 0.1741 loss neg: 0.2035 loss feat: 0.0000
+2024-08-19 06:48:34 EPOCH:11 Batch index: 90, Batch loss: 0.4363
+2024-08-19 06:48:34 loss pos: 0.1477 loss neg: 0.2886 loss feat: 0.0000
+2024-08-19 06:48:49 EPOCH:11 Batch index: 100, Batch loss: 0.4094
+2024-08-19 06:48:49 loss pos: 0.2060 loss neg: 0.2034 loss feat: 0.0000
+2024-08-19 06:49:05 EPOCH:11 Batch index: 110, Batch loss: 0.4620
+2024-08-19 06:49:05 loss pos: 0.2195 loss neg: 0.2425 loss feat: 0.0000
+2024-08-19 06:49:19 EPOCH:11 Batch index: 120, Batch loss: 0.3395
+2024-08-19 06:49:19 loss pos: 0.1182 loss neg: 0.2213 loss feat: 0.0000
+2024-08-19 06:49:34 EPOCH:11 Batch index: 130, Batch loss: 0.2883
+2024-08-19 06:49:34 loss pos: 0.0877 loss neg: 0.2007 loss feat: 0.0000
+2024-08-19 06:49:46 EPOCH:11 Batch index: 140, Batch loss: 0.4004
+2024-08-19 06:49:46 loss pos: 0.1653 loss neg: 0.2351 loss feat: 0.0000
+2024-08-19 06:49:47 EPOCH:11 SUMMARY loss: 0.3867 loss pos: 0.1713 loss neg: 0.2154 loss feat: 0.0000
+2024-08-19 06:49:47 Saving checkpoint
+2024-08-19 06:49:48 save to cat_pose_id_01_scratch
+2024-08-19 06:50:08 EPOCH:12 Batch index: 10, Batch loss: 0.4115
+2024-08-19 06:50:08 loss pos: 0.1941 loss neg: 0.2175 loss feat: 0.0000
+2024-08-19 06:50:23 EPOCH:12 Batch index: 20, Batch loss: 0.4162
+2024-08-19 06:50:23 loss pos: 0.2006 loss neg: 0.2156 loss feat: 0.0000
+2024-08-19 06:50:38 EPOCH:12 Batch index: 30, Batch loss: 0.3709
+2024-08-19 06:50:38 loss pos: 0.1664 loss neg: 0.2045 loss feat: 0.0000
+2024-08-19 06:50:53 EPOCH:12 Batch index: 40, Batch loss: 0.4564
+2024-08-19 06:50:53 loss pos: 0.1579 loss neg: 0.2985 loss feat: 0.0000
+2024-08-19 06:51:09 EPOCH:12 Batch index: 50, Batch loss: 0.4331
+2024-08-19 06:51:09 loss pos: 0.2017 loss neg: 0.2314 loss feat: 0.0000
+2024-08-19 06:51:22 EPOCH:12 Batch index: 60, Batch loss: 0.4300
+2024-08-19 06:51:22 loss pos: 0.2075 loss neg: 0.2225 loss feat: 0.0000
+2024-08-19 06:51:37 EPOCH:12 Batch index: 70, Batch loss: 0.3802
+2024-08-19 06:51:37 loss pos: 0.1589 loss neg: 0.2213 loss feat: 0.0000
+2024-08-19 06:51:50 EPOCH:12 Batch index: 80, Batch loss: 0.3545
+2024-08-19 06:51:50 loss pos: 0.1333 loss neg: 0.2212 loss feat: 0.0000
+2024-08-19 06:52:04 EPOCH:12 Batch index: 90, Batch loss: 0.3515
+2024-08-19 06:52:04 loss pos: 0.1393 loss neg: 0.2122 loss feat: 0.0000
+2024-08-19 06:52:19 EPOCH:12 Batch index: 100, Batch loss: 0.3610
+2024-08-19 06:52:19 loss pos: 0.1416 loss neg: 0.2194 loss feat: 0.0000
+2024-08-19 06:52:35 EPOCH:12 Batch index: 110, Batch loss: 0.3784
+2024-08-19 06:52:35 loss pos: 0.1639 loss neg: 0.2145 loss feat: 0.0000
+2024-08-19 06:52:51 EPOCH:12 Batch index: 120, Batch loss: 0.3992
+2024-08-19 06:52:51 loss pos: 0.1854 loss neg: 0.2138 loss feat: 0.0000
+2024-08-19 06:53:06 EPOCH:12 Batch index: 130, Batch loss: 0.4091
+2024-08-19 06:53:06 loss pos: 0.1950 loss neg: 0.2141 loss feat: 0.0000
+2024-08-19 06:53:17 EPOCH:12 Batch index: 140, Batch loss: 0.3293
+2024-08-19 06:53:17 loss pos: 0.1560 loss neg: 0.1732 loss feat: 0.0000
+2024-08-19 06:53:18 EPOCH:12 SUMMARY loss: 0.3849 loss pos: 0.1694 loss neg: 0.2155 loss feat: 0.0000
+2024-08-19 06:53:18 Saving checkpoint
+2024-08-19 06:53:18 save to cat_pose_id_01_scratch

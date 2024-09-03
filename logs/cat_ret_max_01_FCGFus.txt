@@ -1,0 +1,15 @@
+2024-08-19 07:46:43 trainer: RetrievalTrainer
+2024-08-19 07:46:43 mode: train
+2024-08-19 07:46:43 category ID: 03001627
+2024-08-19 07:46:43 dataset: CategoryDataset, batch_size: 32
+2024-08-19 07:46:43 embedding dim: None
+2024-08-19 07:46:43 voxel size: 0.03
+2024-08-19 07:46:43 optimizer: SGD learning rate: 0.1, exp_gamma: 0.95
+2024-08-19 07:46:43 embedding: max_embedding
+2024-08-19 07:46:43 pos ratio: 0.1, neg ratio: 0.5
+2024-08-19 07:46:43 train_pose: False, train_ret: True
+2024-08-19 07:46:43 resume: None
+2024-08-19 07:46:43 pretrain: ./ckpts/cat_pose_id_01_FCGF16
+2024-08-19 07:46:43 CatId: 03001627
+2024-08-19 07:46:43 pos ratio: 0.1 neg ratio: 0.5
+2024-08-19 07:49:00 Finish Loading

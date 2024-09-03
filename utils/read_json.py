@@ -10,7 +10,6 @@ import open3d as o3d
 import transforms3d
 from utils.preprocess import path_dict, load_raw_pc, apply_transform
 
-
 def load_json(path):
     """
     Read .json files
@@ -20,17 +19,15 @@ def load_json(path):
 
     return data
 
-
 def load_csv(path):
     """
     Read .csv files
     """
-    with open(path, newline="") as f:
+    with open(path, newline='') as f:
         reader = csv.reader(f)
         content = [row for row in reader]
 
     return content
-
 
 def build_pcd(points, colors):
     """
@@ -41,35 +38,32 @@ def build_pcd(points, colors):
     """
     pcd0 = o3d.geometry.PointCloud()
     pcd0.points = o3d.utility.Vector3dVector(points)
-
+    
     if colors.shape[0] == points.shape[0]:
         pcd0.colors = o3d.utility.Vector3dVector(colors)
     elif colors.shape[0] == 3:
-        pcd0.paint_uniform_color(colors)
+        pcd0.paint_uniform_color(colors) 
     else:
         raise ValueError("unknown color dimension")
-
+        
     return pcd0
-
 
 def to_T(translation, quaternion, scale):
     translation = np.array(translation)
     quaternion = np.array(quaternion)
     scale = np.array(scale)
 
-    # euler = transforms3d.euler.quat2euler(quaternion)
-    # R = transforms3d.euler.euler2mat(euler[0], euler[1], euler[2])
-    R = transforms3d.quaternions.quat2mat(quaternion)
+    euler = transforms3d.euler.quat2euler(quaternion)
+    R = transforms3d.euler.euler2mat(euler[0], euler[1], euler[2])
     M, S = np.eye(4), np.eye(4)
-    M[:3, :3] = R
-    M[:3, 3] = translation
-    S[0, 0] = scale[0]
-    S[1, 1] = scale[1]
-    S[2, 2] = scale[2]
+    M[:3,:3] = R
+    M[:3 ,3] = translation
+    S[0,0] = scale[0]
+    S[1,1] = scale[1]
+    S[2,2] = scale[2]
     T = np.matmul(M, S)
-
+    
     return T
-
 
 def apply_trans(pointcloud, translation, quaternion, scale, mode):
     """
@@ -88,7 +82,6 @@ def apply_trans(pointcloud, translation, quaternion, scale, mode):
 
     return pc
 
-
 def convert_tri(tri, indices):
     d = {}
     for i in range(indices.shape[0]):
@@ -100,3 +93,4 @@ def convert_tri(tri, indices):
             tri[i][j] = d[tri[i][j]]
 
     return tri
+
