@@ -10,7 +10,7 @@ from utils.preprocess import read_file, read_split, print_stat, load_raw_pc, loa
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument("--dir", type=str, default="/Users/tyzhao/Desktop/workspace/data/ShapeNetCore.v2.PC15k/")
+parser.add_argument("--dir", type=str, default="/mnt/j-vol-2/ShapeNetCore.v2.PC15k/")
 parser.add_argument("--mode", type=str, default="test")
 parser.add_argument("--num_mismatch", type=int, default=20)
 parser.add_argument("--num_match", type=int, default=10)
@@ -63,8 +63,8 @@ def compute_dist(pcs):
 
 
 def shapenet_cat(split, catid):
-    root = "/scannet/ShapeNetCore.v2.PC15k"
-    target = "/scannet/tables"
+    root = "/mnt/j-vol-2/ShapeNetCore.v2.PC15k"
+    target = "/mnt/j-vol-2/mug"
 
     pcs = []
     print(catid, len(os.listdir(os.path.join(root, catid, split))))
@@ -77,7 +77,7 @@ def shapenet_cat(split, catid):
     np.save(os.path.join(target, "{}_{}.npy".format(catid, split)), table)
         
 if __name__ == "__main__":
-    shapenet_cat("train", "03001627")
-    shapenet_cat("val", "03001627")
-    shapenet_cat("test", "03001627")
+    shapenet_cat("train", "03797390")
+    shapenet_cat("val", "03797390")
+    shapenet_cat("test", "03797390")
 
